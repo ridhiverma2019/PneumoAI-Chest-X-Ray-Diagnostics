@@ -12,7 +12,7 @@ import {
   BookOpen
 } from "lucide-react";
 
-const ActionButton = ({ icon: Icon, title, description, to, color = "blue" }) => (
+const ActionButton = ({ icon: Icon, title, description, to, color = "pink" }) => (
   <Link to={to} className="block">
     <Button 
       variant="outline" 
@@ -63,11 +63,11 @@ export default function QuickActions() {
         />
         
         <div className="pt-3 border-t border-slate-100">
-          <Button variant="ghost" className="w-full justify-start text-slate-600 hover:text-slate-900">
+          <Button variant="ghost" className="w-full justify-start text-slate-600 hover:text-slate-860">
             <Download className="w-4 h-4 mr-3" />
             Export Reports
           </Button>
-          <Button variant="ghost" className="w-full justify-start text-slate-600 hover:text-slate-900">
+          <Button variant="ghost" className="w-full justify-start text-slate-600 hover:text-slate-860">
             <BookOpen className="w-4 h-4 mr-3" />
             View Guidelines
           </Button>
