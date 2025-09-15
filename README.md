@@ -45,8 +45,6 @@ Built for healthcare professionals to assist with **rapid and accurate pneumonia
 
 ---
 
-## 🚀 Getting Started  
-
 ### Prerequisites  
 - Modern web browser (Chrome/Firefox/Safari/Edge)  
 - Internet connection (for AI processing)  
